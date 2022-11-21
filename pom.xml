@@ -6,12 +6,18 @@
 
     <groupId>org.syx</groupId>
     <artifactId>rpc-stone</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>rpc-stone-demo</module>
+        <module>rpc-stone-transport</module>
+        <module>rpc-stone-protocol</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
+
 </project>
